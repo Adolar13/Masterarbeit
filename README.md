@@ -1,2 +1,3 @@
 # Masterarbeit
-Quellcode des während der Masterarbeit  angefertigten Prototyps.
+Quellcode des im Laufe der Masterarbeit mit dem Thema "Auswertung und Verarbeitung von Aufnahmen einer Wärmebildkamera zur
+Unterstützung von Feuerwehreinsätzen" angefertigten Prototyps.
