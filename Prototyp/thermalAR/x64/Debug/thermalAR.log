@@ -1,0 +1,2259 @@
+﻿  
+  Durchlauf 1 gestartet
+  /DEFAULTLIB:msvcprtd wurde verarbeitet.
+  /DEFAULTLIB:MSVCRTD wurde verarbeitet.
+  /DEFAULTLIB:OLDNAMES wurde verarbeitet.
+  /DEFAULTLIB:tbb_debug.lib wurde verarbeitet.
+  /DEFAULTLIB:vcompd wurde verarbeitet.
+  
+  Bibliotheken werden durchsucht.
+      Durchsuchen von C:\intel\tbb2019_20190605oss\lib\intel64\vc14\tbb.lib:
+        "void __cdecl tbb::assertion_failure(char const *,int,char const *,char const *)" (?assertion_failure@tbb@@YAXPEBDH00@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          "tbb.lib(tbb.dll)" geladen
+        "public: class tbb::task & __cdecl tbb::internal::allocate_root_with_context_proxy::allocate(unsigned __int64)const " (?allocate@allocate_root_with_context_proxy@internal@tbb@@QEBAAEAVtask@3@_K@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          "tbb.lib(tbb.dll)" geladen
+        "public: void __cdecl tbb::internal::allocate_root_with_context_proxy::free(class tbb::task &)const " (?free@allocate_root_with_context_proxy@internal@tbb@@QEBAXAEAVtask@3@@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          "tbb.lib(tbb.dll)" geladen
+        "public: class tbb::task & __cdecl tbb::internal::allocate_continuation_proxy::allocate(unsigned __int64)const " (?allocate@allocate_continuation_proxy@internal@tbb@@QEBAAEAVtask@3@_K@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          "tbb.lib(tbb.dll)" geladen
+        "public: void __cdecl tbb::internal::allocate_continuation_proxy::free(class tbb::task &)const " (?free@allocate_continuation_proxy@internal@tbb@@QEBAXAEAVtask@3@@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          "tbb.lib(tbb.dll)" geladen
+        "public: class tbb::task & __cdecl tbb::internal::allocate_child_proxy::allocate(unsigned __int64)const " (?allocate@allocate_child_proxy@internal@tbb@@QEBAAEAVtask@3@_K@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          "tbb.lib(tbb.dll)" geladen
+        "public: __cdecl tbb::task_group_context::~task_group_context(void)" (??1task_group_context@tbb@@QEAA@XZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          "tbb.lib(tbb.dll)" geladen
+        "public: bool __cdecl tbb::task_group_context::is_group_execution_cancelled(void)const " (?is_group_execution_cancelled@task_group_context@tbb@@QEBA_NXZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          "tbb.lib(tbb.dll)" geladen
+        "protected: void __cdecl tbb::task_group_context::init(void)" (?init@task_group_context@tbb@@IEAAXXZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          "tbb.lib(tbb.dll)" geladen
+        "private: void __cdecl tbb::task::internal_set_ref_count(int)" (?internal_set_ref_count@task@tbb@@AEAAXH@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          "tbb.lib(tbb.dll)" geladen
+        "public: virtual void __cdecl tbb::task::note_affinity(unsigned short)" (?note_affinity@task@tbb@@UEAAXG@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          "tbb.lib(tbb.dll)" geladen
+        "unsigned __int64 __cdecl tbb::internal::get_initial_auto_partitioner_divisor(void)" (?get_initial_auto_partitioner_divisor@internal@tbb@@YA_KXZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          "tbb.lib(tbb.dll)" geladen
+        __IMPORT_DESCRIPTOR_tbb gefunden.
+          In "tbb.lib(tbb.dll)" referenziert
+          In "tbb.lib(tbb.dll)" referenziert
+          In "tbb.lib(tbb.dll)" referenziert
+          In "tbb.lib(tbb.dll)" referenziert
+          In "tbb.lib(tbb.dll)" referenziert
+          In "tbb.lib(tbb.dll)" referenziert
+          In "tbb.lib(tbb.dll)" referenziert
+          In "tbb.lib(tbb.dll)" referenziert
+          In "tbb.lib(tbb.dll)" referenziert
+          In "tbb.lib(tbb.dll)" referenziert
+          In "tbb.lib(tbb.dll)" referenziert
+          In "tbb.lib(tbb.dll)" referenziert
+          "tbb.lib(tbb.dll)" geladen
+        __NULL_IMPORT_DESCRIPTOR gefunden.
+          In "tbb.lib(tbb.dll)" referenziert
+          "tbb.lib(tbb.dll)" geladen
+        tbb_NULL_THUNK_DATA gefunden.
+          In "tbb.lib(tbb.dll)" referenziert
+          "tbb.lib(tbb.dll)" geladen
+      Durchsuchen von C:\intel\tbb2019_20190605oss\lib\intel64\vc14\tbb_debug.lib:
+      Durchsuchen von C:\opencv\build\x64\vc15\lib\opencv_world410d.lib:
+        "class cv::debug_build_guard::_InputOutputArray const & __cdecl cv::noArray(void)" (?noArray@cv@@YAAEBV_InputOutputArray@debug_build_guard@1@XZ) gefunden.
+          In "TempExtrema.obj" referenziert
+          In "AmbientTemp.obj" referenziert
+          In "ContrastManipulation.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "RangeHighlight.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "public: __cdecl cv::UMat::~UMat(void)" (??1UMat@cv@@QEAA@XZ) gefunden.
+          In "main.obj" referenziert
+          In "RangeHighlight.obj" referenziert
+          In "TempExtrema.obj" referenziert
+          In "TempReader.obj" referenziert
+          In "EdgeDetector.obj" referenziert
+          In "AmbientTemp.obj" referenziert
+          In "ContrastManipulation.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "NoiseReduction.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "class cv::Scalar_<double> __cdecl cv::mean(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_InputArray const &)" (?mean@cv@@YA?AV?$Scalar_@N@1@AEBV_InputArray@debug_build_guard@1@0@Z) gefunden.
+          In "AmbientTemp.obj" referenziert
+          In "TempReader.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "void __cdecl cv::min(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &)" (?min@cv@@YAXAEBV_InputArray@debug_build_guard@1@0AEBV_OutputArray@31@@Z) gefunden.
+          In "AmbientTemp.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "void __cdecl cv::max(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &)" (?max@cv@@YAXAEBV_InputArray@debug_build_guard@1@0AEBV_OutputArray@31@@Z) gefunden.
+          In "AmbientTemp.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "public: void __cdecl cv::UMat::copyTo(class cv::debug_build_guard::_OutputArray const &,class cv::debug_build_guard::_InputArray const &)const " (?copyTo@UMat@cv@@QEBAXAEBV_OutputArray@debug_build_guard@2@AEBV_InputArray@42@@Z) gefunden.
+          In "ContrastManipulation.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "RangeHighlight.obj" referenziert
+          In "TempReader.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "void __cdecl cv::add(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,class cv::debug_build_guard::_InputArray const &,int)" (?add@cv@@YAXAEBV_InputArray@debug_build_guard@1@0AEBV_OutputArray@31@0H@Z) gefunden.
+          In "ContrastManipulation.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "RangeHighlight.obj" referenziert
+          In "TempExtrema.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "void __cdecl cv::subtract(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,class cv::debug_build_guard::_InputArray const &,int)" (?subtract@cv@@YAXAEBV_InputArray@debug_build_guard@1@0AEBV_OutputArray@31@0H@Z) gefunden.
+          In "ContrastManipulation.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "TempExtrema.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "void __cdecl cv::multiply(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,double,int)" (?multiply@cv@@YAXAEBV_InputArray@debug_build_guard@1@0AEBV_OutputArray@31@NH@Z) gefunden.
+          In "ContrastManipulation.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "RangeHighlight.obj" referenziert
+          In "TempExtrema.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "double __cdecl cv::threshold(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,double,double,int)" (?threshold@cv@@YANAEBV_InputArray@debug_build_guard@1@AEBV_OutputArray@31@NNH@Z) gefunden.
+          In "ContrastManipulation.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "struct cv::Ptr<class cv::CLAHE> __cdecl cv::createCLAHE(double,class cv::Size_<int>)" (?createCLAHE@cv@@YA?AU?$Ptr@VCLAHE@cv@@@1@NV?$Size_@H@1@@Z) gefunden.
+          In "ContrastManipulation.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPEAX@Z) gefunden.
+          In "TempReader.obj" referenziert
+          In "main.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "TempExtrema.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "void __cdecl cv::error(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,char const *,char const *,int)" (?error@cv@@YAXHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBD1H@Z) gefunden.
+          In "main.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "TempExtrema.obj" referenziert
+          In "TempReader.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "public: static class cv::MatExpr __cdecl cv::Mat::zeros(int,int,int)" (?zeros@Mat@cv@@SA?AVMatExpr@2@HHH@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "public: void __cdecl cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QEAAXXZ) gefunden.
+          In "TempReader.obj" referenziert
+          In "main.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "TempExtrema.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "bool __cdecl cv::imwrite(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::debug_build_guard::_InputArray const &,class std::vector<int,class std::allocator<int> > const &)" (?imwrite@cv@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV_InputArray@debug_build_guard@1@AEBV?$vector@HV?$allocator@H@std@@@3@@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "public: class cv::UMat __cdecl cv::Mat::getUMat(enum cv::AccessFlag,enum cv::UMatUsageFlags)const " (?getUMat@Mat@cv@@QEBA?AVUMat@2@W4AccessFlag@2@W4UMatUsageFlags@2@@Z) gefunden.
+          In "ImageProcessor.obj" referenziert
+          In "main.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "public: void __cdecl cv::Mat::copyTo(class cv::debug_build_guard::_OutputArray const &)const " (?copyTo@Mat@cv@@QEBAXAEBV_OutputArray@debug_build_guard@2@@Z) gefunden.
+          In "ImageProcessor.obj" referenziert
+          In "TempReader.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "public: static class cv::MatExpr __cdecl cv::Mat::zeros(class cv::Size_<int>,int)" (?zeros@Mat@cv@@SA?AVMatExpr@2@V?$Size_@H@2@H@Z) gefunden.
+          In "ImageProcessor.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "public: void __cdecl cv::Mat::create(int,int const *,int)" (?create@Mat@cv@@QEAAXHPEBHH@Z) gefunden.
+          In "ImageProcessor.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "public: void __cdecl cv::Mat::copySize(class cv::Mat const &)" (?copySize@Mat@cv@@QEAAXAEBV12@@Z) gefunden.
+          In "ImageProcessor.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "main.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "public: class cv::Mat __cdecl cv::UMat::getMat(enum cv::AccessFlag)const " (?getMat@UMat@cv@@QEBA?AVMat@2@W4AccessFlag@2@@Z) gefunden.
+          In "ImageProcessor.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "public: void __cdecl cv::UMat::copyTo(class cv::debug_build_guard::_OutputArray const &)const " (?copyTo@UMat@cv@@QEBAXAEBV_OutputArray@debug_build_guard@2@@Z) gefunden.
+          In "ImageProcessor.obj" referenziert
+          In "RangeHighlight.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "public: void __cdecl cv::UMat::convertTo(class cv::debug_build_guard::_OutputArray const &,int,double,double)const " (?convertTo@UMat@cv@@QEBAXAEBV_OutputArray@debug_build_guard@2@HNN@Z) gefunden.
+          In "ImageProcessor.obj" referenziert
+          In "RangeHighlight.obj" referenziert
+          In "TempExtrema.obj" referenziert
+          In "EdgeDetector.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "public: static class cv::UMat __cdecl cv::UMat::zeros(class cv::Size_<int>,int)" (?zeros@UMat@cv@@SA?AV12@V?$Size_@H@2@H@Z) gefunden.
+          In "ImageProcessor.obj" referenziert
+          In "TempExtrema.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "public: void __cdecl cv::UMat::deallocate(void)" (?deallocate@UMat@cv@@QEAAXXZ) gefunden.
+          In "ImageProcessor.obj" referenziert
+          In "TempExtrema.obj" referenziert
+          In "TempReader.obj" referenziert
+          In "main.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "public: void __cdecl cv::UMat::copySize(class cv::UMat const &)" (?copySize@UMat@cv@@QEAAXAEBV12@@Z) gefunden.
+          In "main.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "RangeHighlight.obj" referenziert
+          In "TempExtrema.obj" referenziert
+          In "TempReader.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "void __cdecl cv::addWeighted(class cv::debug_build_guard::_InputArray const &,double,class cv::debug_build_guard::_InputArray const &,double,double,class cv::debug_build_guard::_OutputArray const &,int)" (?addWeighted@cv@@YAXAEBV_InputArray@debug_build_guard@1@N0NNAEBV_OutputArray@31@H@Z) gefunden.
+          In "ImageProcessor.obj" referenziert
+          In "EdgeDetector.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "void __cdecl cv::pyrDown(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,class cv::Size_<int> const &,int)" (?pyrDown@cv@@YAXAEBV_InputArray@debug_build_guard@1@AEBV_OutputArray@31@AEBV?$Size_@H@1@H@Z) gefunden.
+          In "ImageProcessor.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "void __cdecl cv::equalizeHist(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &)" (?equalizeHist@cv@@YAXAEBV_InputArray@debug_build_guard@1@AEBV_OutputArray@31@@Z) gefunden.
+          In "ImageProcessor.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "void __cdecl cv::cvtColor(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,int,int)" (?cvtColor@cv@@YAXAEBV_InputArray@debug_build_guard@1@AEBV_OutputArray@31@HH@Z) gefunden.
+          In "ImageProcessor.obj" referenziert
+          In "RangeHighlight.obj" referenziert
+          In "TempExtrema.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "void __cdecl cv::imshow(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::debug_build_guard::_InputArray const &)" (?imshow@cv@@YAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV_InputArray@debug_build_guard@1@@Z) gefunden.
+          In "ImageProcessor.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "void __cdecl cv::fastNlMeansDenoising(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,class std::vector<float,class std::allocator<float> > const &,int,int,int)" (?fastNlMeansDenoising@cv@@YAXAEBV_InputArray@debug_build_guard@1@AEBV_OutputArray@31@AEBV?$vector@MV?$allocator@M@std@@@std@@HHH@Z) gefunden.
+          In "NoiseReduction.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "void __cdecl cv::bitwise_not(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,class cv::debug_build_guard::_InputArray const &)" (?bitwise_not@cv@@YAXAEBV_InputArray@debug_build_guard@1@AEBV_OutputArray@31@0@Z) gefunden.
+          In "RangeHighlight.obj" referenziert
+          In "TempExtrema.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "void __cdecl cv::inRange(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &)" (?inRange@cv@@YAXAEBV_InputArray@debug_build_guard@1@00AEBV_OutputArray@31@@Z) gefunden.
+          In "RangeHighlight.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "class cv::Mat __cdecl cv::imread(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (?imread@cv@@YA?AVMat@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z) gefunden.
+          In "SequenceReader.obj" referenziert
+          In "TempReader.obj" referenziert
+          In "main.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "public: class cv::UMat & __cdecl cv::UMat::setTo(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_InputArray const &)" (?setTo@UMat@cv@@QEAAAEAV12@AEBV_InputArray@debug_build_guard@2@0@Z) gefunden.
+          In "TempExtrema.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "void __cdecl cv::minMaxLoc(class cv::debug_build_guard::_InputArray const &,double *,double *,class cv::Point_<int> *,class cv::Point_<int> *,class cv::debug_build_guard::_InputArray const &)" (?minMaxLoc@cv@@YAXAEBV_InputArray@debug_build_guard@1@PEAN1PEAV?$Point_@H@1@20@Z) gefunden.
+          In "TempExtrema.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "public: void __cdecl cv::Mat::updateContinuityFlag(void)" (?updateContinuityFlag@Mat@cv@@QEAAXXZ) gefunden.
+          In "TempReader.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "public: __cdecl cv::UMat::UMat(class cv::UMat const &,class cv::Rect_<int> const &)" (??0UMat@cv@@QEAA@AEBV01@AEBV?$Rect_@H@1@@Z) gefunden.
+          In "TempReader.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "void __cdecl cv::putText(class cv::debug_build_guard::_InputOutputArray const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::Point_<int>,int,double,class cv::Scalar_<double>,int,int,bool)" (?putText@cv@@YAXAEBV_InputOutputArray@debug_build_guard@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$Point_@H@1@HNV?$Scalar_@N@1@HH_N@Z) gefunden.
+          In "TempReader.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "class cv::Size_<int> __cdecl cv::getTextSize(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int,double,int,int *)" (?getTextSize@cv@@YA?AV?$Size_@H@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HNHPEAH@Z) gefunden.
+          In "TempReader.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "void __cdecl cv::absdiff(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &)" (?absdiff@cv@@YAXAEBV_InputArray@debug_build_guard@1@0AEBV_OutputArray@31@@Z) gefunden.
+          In "EdgeDetector.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "void __cdecl cv::Scharr(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,int,int,int,double,double,int)" (?Scharr@cv@@YAXAEBV_InputArray@debug_build_guard@1@AEBV_OutputArray@31@HHHNNH@Z) gefunden.
+          In "EdgeDetector.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "void __cdecl cv::swap(class cv::Mat &,class cv::Mat &)" (?swap@cv@@YAXAEAVMat@1@0@Z) gefunden.
+          In "main.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "public: __cdecl cv::VideoCapture::VideoCapture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (??0VideoCapture@cv@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z) gefunden.
+          In "main.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "public: virtual __cdecl cv::VideoCapture::~VideoCapture(void)" (??1VideoCapture@cv@@UEAA@XZ) gefunden.
+          In "main.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "public: virtual bool __cdecl cv::VideoCapture::isOpened(void)const " (?isOpened@VideoCapture@cv@@UEBA_NXZ) gefunden.
+          In "main.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "public: virtual bool __cdecl cv::VideoCapture::read(class cv::debug_build_guard::_OutputArray const &)" (?read@VideoCapture@cv@@UEAA_NAEBV_OutputArray@debug_build_guard@2@@Z) gefunden.
+          In "main.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        "int __cdecl cv::waitKey(int)" (?waitKey@cv@@YAHH@Z) gefunden.
+          In "main.obj" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        __IMPORT_DESCRIPTOR_opencv_world410d gefunden.
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+        opencv_world410d_NULL_THUNK_DATA gefunden.
+          In "opencv_world410d.lib(opencv_world410d.dll)" referenziert
+          "opencv_world410d.lib(opencv_world410d.dll)" geladen
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\kernel32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\user32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\gdi32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\winspool.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\comdlg32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\advapi32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\shell32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\ole32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\oleaut32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\uuid.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\odbc32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\odbccp32.lib:
+      Durchsuchen von C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\lib\x64\msvcprtd.lib:
+        "__declspec(dllimport) public: __cdecl std::_Lockit::_Lockit(int)" (__imp_??0_Lockit@std@@QEAA@H@Z) gefunden.
+          In "TempExtrema.obj" referenziert
+          In "TempReader.obj" referenziert
+          In "main.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "NoiseReduction.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: __cdecl std::_Lockit::~_Lockit(void)" (__imp_??1_Lockit@std@@QEAA@XZ) gefunden.
+          In "TempExtrema.obj" referenziert
+          In "TempReader.obj" referenziert
+          In "main.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "NoiseReduction.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "bool __cdecl std::uncaught_exception(void)" (?uncaught_exception@std@@YA_NXZ) gefunden.
+          In "main.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "void __cdecl std::_Xbad_alloc(void)" (?_Xbad_alloc@std@@YAXXZ) gefunden.
+          In "main.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "void __cdecl std::_Xinvalid_argument(char const *)" (?_Xinvalid_argument@std@@YAXPEBD@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "void __cdecl std::_Xlength_error(char const *)" (?_Xlength_error@std@@YAXPEBD@Z) gefunden.
+          In "TempExtrema.obj" referenziert
+          In "TempReader.obj" referenziert
+          In "main.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "NoiseReduction.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "void __cdecl std::_Xout_of_range(char const *)" (?_Xout_of_range@std@@YAXPEBD@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        _Mbrtowc gefunden.
+          In "main.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: struct _Cvtvec __cdecl std::_Locinfo::_Getcvt(void)const " (__imp_?_Getcvt@_Locinfo@std@@QEBA?AU_Cvtvec@@XZ) gefunden.
+          In "main.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: char const * __cdecl std::_Locinfo::_Getdays(void)const " (__imp_?_Getdays@_Locinfo@std@@QEBAPEBDXZ) gefunden.
+          In "main.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: char const * __cdecl std::_Locinfo::_Getmonths(void)const " (__imp_?_Getmonths@_Locinfo@std@@QEBAPEBDXZ) gefunden.
+          In "main.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: unsigned short const * __cdecl std::_Locinfo::_W_Getdays(void)const " (__imp_?_W_Getdays@_Locinfo@std@@QEBAPEBGXZ) gefunden.
+          In "main.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: unsigned short const * __cdecl std::_Locinfo::_W_Getmonths(void)const " (__imp_?_W_Getmonths@_Locinfo@std@@QEBAPEBGXZ) gefunden.
+          In "main.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "void __cdecl std::_Facet_Register(class std::_Facet_base *)" (?_Facet_Register@std@@YAXPEAV_Facet_base@1@@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(locale0_implib.obj)" geladen
+        "__declspec(dllimport) public: __cdecl std::locale::id::operator unsigned __int64(void)" (__imp_??Bid@locale@std@@QEAA_KXZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "private: static class std::locale::_Locimp * __cdecl std::locale::_Getgloballocale(void)" (?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: bool __cdecl std::codecvt_base::always_noconv(void)const " (__imp_?always_noconv@codecvt_base@std@@QEBA_NXZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: bool __cdecl std::ctype<char>::is(short,char)const " (__imp_?is@?$ctype@D@std@@QEBA_NFD@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: static unsigned __int64 __cdecl std::ctype<char>::_Getcat(class std::locale::facet const * *,class std::locale const *)" (__imp_?_Getcat@?$ctype@D@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: int __cdecl std::codecvt<char,char,struct _Mbstatet>::in(struct _Mbstatet &,char const *,char const *,char const * &,char *,char *,char * &)const " (__imp_?in@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: int __cdecl std::codecvt<char,char,struct _Mbstatet>::out(struct _Mbstatet &,char const *,char const *,char const * &,char *,char *,char * &)const " (__imp_?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: int __cdecl std::codecvt<char,char,struct _Mbstatet>::unshift(struct _Mbstatet &,char *,char *,char * &)const " (__imp_?unshift@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEAD1AEAPEAD@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: static unsigned __int64 __cdecl std::codecvt<char,char,struct _Mbstatet>::_Getcat(class std::locale::facet const * *,class std::locale const *)" (__imp_?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "int __cdecl std::_Execute_once(struct std::once_flag &,int (__cdecl*)(void *,void *,void * *),void *)" (?_Execute_once@std@@YAHAEAUonce_flag@1@P6AHPEAX1PEAPEAX@Z1@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "char const * __cdecl std::_Syserror_map(int)" (?_Syserror_map@std@@YAPEBDH@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "int __cdecl std::_Winerror_map(int)" (?_Winerror_map@std@@YAHH@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "unsigned long __cdecl std::_Winerror_message(unsigned long,char *,unsigned long)" (?_Winerror_message@std@@YAKKPEADK@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: __cdecl std::ios_base::operator bool(void)const " (__imp_??Bios_base@std@@QEBA_NXZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: bool __cdecl std::ios_base::good(void)const " (__imp_?good@ios_base@std@@QEBA_NXZ) gefunden.
+          In "main.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: int __cdecl std::ios_base::flags(void)const " (__imp_?flags@ios_base@std@@QEBAHXZ) gefunden.
+          In "main.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: __int64 __cdecl std::ios_base::width(void)const " (__imp_?width@ios_base@std@@QEBA_JXZ) gefunden.
+          In "main.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: __int64 __cdecl std::ios_base::width(__int64)" (__imp_?width@ios_base@std@@QEAA_J_J@Z) gefunden.
+          In "main.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: class std::locale __cdecl std::ios_base::getloc(void)const " (__imp_?getloc@ios_base@std@@QEBA?AVlocale@2@XZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) protected: __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::basic_streambuf<char,struct std::char_traits<char> >(void)" (__imp_??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: virtual __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::~basic_streambuf<char,struct std::char_traits<char> >(void)" (__imp_??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: class std::locale __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::getloc(void)const " (__imp_?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: int __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::sbumpc(void)" (__imp_?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: int __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::sgetc(void)" (__imp_?sgetc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: int __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::snextc(void)" (__imp_?snextc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: int __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::sputc(char)" (__imp_?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z) gefunden.
+          In "main.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: __int64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::sputn(char const *,__int64)" (__imp_?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z) gefunden.
+          In "main.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::eback(void)const " (__imp_?eback@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::gptr(void)const " (__imp_?gptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::pptr(void)const " (__imp_?pptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::egptr(void)const " (__imp_?egptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) protected: void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::gbump(int)" (__imp_?gbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXH@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) protected: void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::setg(char *,char *,char *)" (__imp_?setg@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD00@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::epptr(void)const " (__imp_?epptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Gndec(void)" (__imp_?_Gndec@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Gninc(void)" (__imp_?_Gninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) protected: __int64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Gnavail(void)const " (__imp_?_Gnavail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBA_JXZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) protected: void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::pbump(int)" (__imp_?pbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXH@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) protected: void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::setp(char *,char *)" (__imp_?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD0@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) protected: void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::setp(char *,char *,char *)" (__imp_?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD00@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Pninc(void)" (__imp_?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) protected: __int64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Pnavail(void)const " (__imp_?_Pnavail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBA_JXZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) protected: void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Init(void)" (__imp_?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXXZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) protected: void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Init(char * *,char * *,int *,char * *,char * *,int *)" (__imp_?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAPEAD0PEAH001@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) protected: virtual __int64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::xsgetn(char *,__int64)" (__imp_?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) protected: virtual __int64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::xsputn(char const *,__int64)" (__imp_?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: virtual __cdecl std::basic_ios<char,struct std::char_traits<char> >::~basic_ios<char,struct std::char_traits<char> >(void)" (__imp_??1?$basic_ios@DU?$char_traits@D@std@@@std@@UEAA@XZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: void __cdecl std::basic_ios<char,struct std::char_traits<char> >::setstate(int,bool)" (__imp_?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z) gefunden.
+          In "main.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > * __cdecl std::basic_ios<char,struct std::char_traits<char> >::tie(void)const " (__imp_?tie@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBAPEAV?$basic_ostream@DU?$char_traits@D@std@@@2@XZ) gefunden.
+          In "main.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: class std::basic_streambuf<char,struct std::char_traits<char> > * __cdecl std::basic_ios<char,struct std::char_traits<char> >::rdbuf(void)const " (__imp_?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBAPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ) gefunden.
+          In "main.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: char __cdecl std::basic_ios<char,struct std::char_traits<char> >::fill(void)const " (__imp_?fill@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADXZ) gefunden.
+          In "main.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: char __cdecl std::basic_ios<char,struct std::char_traits<char> >::widen(char)const " (__imp_?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "main.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) protected: __cdecl std::basic_ios<char,struct std::char_traits<char> >::basic_ios<char,struct std::char_traits<char> >(void)" (__imp_??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: void __cdecl std::basic_ostream<char,struct std::char_traits<char> >::_Osfx(void)" (__imp_?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ) gefunden.
+          In "main.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl std::basic_ostream<char,struct std::char_traits<char> >::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > & (__cdecl*)(class std::basic_ostream<char,struct std::char_traits<char> > &))" (__imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "main.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl std::basic_ostream<char,struct std::char_traits<char> >::operator<<(class std::basic_streambuf<char,struct std::char_traits<char> > *)" (__imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl std::basic_ostream<char,struct std::char_traits<char> >::put(char)" (__imp_?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "main.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl std::basic_ostream<char,struct std::char_traits<char> >::flush(void)" (__imp_?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ) gefunden.
+          In "main.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: __cdecl std::basic_istream<char,struct std::char_traits<char> >::basic_istream<char,struct std::char_traits<char> >(class std::basic_streambuf<char,struct std::char_traits<char> > *,bool)" (__imp_??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: virtual __cdecl std::basic_istream<char,struct std::char_traits<char> >::~basic_istream<char,struct std::char_traits<char> >(void)" (__imp_??1?$basic_istream@DU?$char_traits@D@std@@@std@@UEAA@XZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: bool __cdecl std::basic_istream<char,struct std::char_traits<char> >::_Ipfx(bool)" (__imp_?_Ipfx@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA_N_N@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: __cdecl std::basic_iostream<char,struct std::char_traits<char> >::basic_iostream<char,struct std::char_traits<char> >(class std::basic_streambuf<char,struct std::char_traits<char> > *)" (__imp_??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: virtual __cdecl std::basic_iostream<char,struct std::char_traits<char> >::~basic_iostream<char,struct std::char_traits<char> >(void)" (__imp_??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UEAA@XZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "struct _iobuf * __cdecl std::_Fiopen(char const *,int,int)" (?_Fiopen@std@@YAPEAU_iobuf@@PEBDHH@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        __std_fs_directory_iterator_open gefunden.
+          In "ImageConverter.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          "msvcprtd.lib(filesystem.obj)" geladen
+        "public: virtual void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Lock(void)" (?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "public: virtual void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Unlock(void)" (?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "protected: virtual void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::imbue(class std::locale const &)" (?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "protected: virtual class std::basic_streambuf<char,struct std::char_traits<char> > * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::setbuf(char *,__int64)" (?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z) gefunden.
+          In "ImageConverter.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "protected: virtual __int64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::showmanyc(void)" (?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "protected: virtual int __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::sync(void)" (?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "protected: virtual int __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::uflow(void)" (?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ) gefunden.
+          In "ImageConverter.obj" referenziert
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: static class std::locale::id std::ctype<char>::id" (__imp_?id@?$ctype@D@std@@2V0locale@2@A) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: static class std::locale::id std::codecvt<char,char,struct _Mbstatet>::id" (__imp_?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A) gefunden.
+          In "ImageConverter.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) class std::basic_ostream<char,struct std::char_traits<char> > std::cout" (__imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A) gefunden.
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "main.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        _Thrd_hardware_concurrency gefunden.
+          In "ImageProcessor.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl std::basic_ostream<char,struct std::char_traits<char> >::operator<<(int)" (__imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z) gefunden.
+          In "ImageProcessor.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl std::basic_ostream<char,struct std::char_traits<char> >::operator<<(unsigned __int64)" (__imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_K@Z) gefunden.
+          In "SequenceReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: int __cdecl std::ios_base::setf(int,int)" (__imp_?setf@ios_base@std@@QEAAHHH@Z) gefunden.
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::pbase(void)const " (__imp_?pbase@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ) gefunden.
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: void __cdecl std::basic_ios<char,struct std::char_traits<char> >::clear(int,bool)" (__imp_?clear@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z) gefunden.
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: __cdecl std::basic_ostream<char,struct std::char_traits<char> >::basic_ostream<char,struct std::char_traits<char> >(class std::basic_streambuf<char,struct std::char_traits<char> > *,bool)" (__imp_??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z) gefunden.
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: virtual __cdecl std::basic_ostream<char,struct std::char_traits<char> >::~basic_ostream<char,struct std::char_traits<char> >(void)" (__imp_??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ) gefunden.
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl std::basic_ostream<char,struct std::char_traits<char> >::operator<<(class std::ios_base & (__cdecl*)(class std::ios_base &))" (__imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAVios_base@1@AEAV21@@Z@Z) gefunden.
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl std::basic_ostream<char,struct std::char_traits<char> >::operator<<(double)" (__imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@N@Z) gefunden.
+          In "TempReader.obj" referenziert
+          In "main.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "struct std::_Smanip<__int64> __cdecl std::setprecision(__int64)" (?setprecision@std@@YA?AU?$_Smanip@_J@1@_J@Z) gefunden.
+          In "TempReader.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        "__declspec(dllimport) class std::basic_ostream<char,struct std::char_traits<char> > std::cerr" (__imp_?cerr@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A) gefunden.
+          In "main.obj" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        __IMPORT_DESCRIPTOR_MSVCP140D gefunden.
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+        MSVCP140D_NULL_THUNK_DATA gefunden.
+          In "msvcprtd.lib(MSVCP140D.dll)" referenziert
+          "msvcprtd.lib(MSVCP140D.dll)" geladen
+      Durchsuchen von C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\lib\x64\MSVCRTD.lib:
+        _RTC_CheckStackVars gefunden.
+          In "EdgeDetector.obj" referenziert
+          In "main.obj" referenziert
+          In "NoiseReduction.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "TempExtrema.obj" referenziert
+          In "TempReader.obj" referenziert
+          In "AmbientTemp.obj" referenziert
+          In "ContrastManipulation.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          "MSVCRTD.lib(stack.obj)" geladen
+        _RTC_InitBase gefunden.
+          In "TempExtrema.obj" referenziert
+          In "TempReader.obj" referenziert
+          In "EdgeDetector.obj" referenziert
+          In "main.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "NoiseReduction.obj" referenziert
+          In "RangeHighlight.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "AmbientTemp.obj" referenziert
+          In "ContrastManipulation.obj" referenziert
+          In "DigitalTempConverter.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          "MSVCRTD.lib(init.obj)" geladen
+        __CheckForDebuggerJustMyCode gefunden.
+          In "TempExtrema.obj" referenziert
+          In "TempReader.obj" referenziert
+          In "EdgeDetector.obj" referenziert
+          In "main.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "NoiseReduction.obj" referenziert
+          In "RangeHighlight.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "AmbientTemp.obj" referenziert
+          In "ContrastManipulation.obj" referenziert
+          In "DigitalTempConverter.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          "MSVCRTD.lib(debugger_jmc.obj)" geladen
+        __GSHandlerCheck_EH gefunden.
+          In "EdgeDetector.obj" referenziert
+          In "main.obj" referenziert
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          In "NoiseReduction.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "TempExtrema.obj" referenziert
+          In "TempReader.obj" referenziert
+          In "AmbientTemp.obj" referenziert
+          In "ContrastManipulation.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          "MSVCRTD.lib(gshandlereh.obj)" geladen
+        __security_check_cookie gefunden.
+          In "EdgeDetector.obj" referenziert
+          In "main.obj" referenziert
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          In "NoiseReduction.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "TempExtrema.obj" referenziert
+          In "TempReader.obj" referenziert
+          In "AmbientTemp.obj" referenziert
+          In "ContrastManipulation.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          "MSVCRTD.lib(amdsecgs.obj)" geladen
+        __security_cookie gefunden.
+          In "MSVCRTD.lib(amdsecgs.obj)" referenziert
+          In "EdgeDetector.obj" referenziert
+          In "main.obj" referenziert
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          In "NoiseReduction.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "TempExtrema.obj" referenziert
+          In "TempReader.obj" referenziert
+          In "AmbientTemp.obj" referenziert
+          In "ContrastManipulation.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          "MSVCRTD.lib(gs_cookie.obj)" geladen
+        _fltused gefunden.
+          In "TempReader.obj" referenziert
+          In "EdgeDetector.obj" referenziert
+          In "main.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "NoiseReduction.obj" referenziert
+          In "RangeHighlight.obj" referenziert
+          In "TempExtrema.obj" referenziert
+          In "AmbientTemp.obj" referenziert
+          In "ContrastManipulation.obj" referenziert
+          In "DigitalTempConverter.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          "MSVCRTD.lib(fltused.obj)" geladen
+        "void * __cdecl operator new(unsigned __int64)" (??2@YAPEAX_K@Z) gefunden.
+          In "TempExtrema.obj" referenziert
+          In "TempReader.obj" referenziert
+          In "main.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "NoiseReduction.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          "MSVCRTD.lib(new_scalar.obj)" geladen
+        "void __cdecl operator delete(void *,unsigned __int64)" (??3@YAXPEAX_K@Z) gefunden.
+          In "TempExtrema.obj" referenziert
+          In "TempReader.obj" referenziert
+          In "main.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "NoiseReduction.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          "MSVCRTD.lib(delete_scalar_size.obj)" geladen
+        __GSHandlerCheck gefunden.
+          In "TempExtrema.obj" referenziert
+          In "TempReader.obj" referenziert
+          In "main.obj" referenziert
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "NoiseReduction.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          "MSVCRTD.lib(gshandler.obj)" geladen
+        "const type_info::`vftable'" (??_7type_info@@6B@) gefunden.
+          In "ImageConverter.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "TempReader.obj" referenziert
+          "MSVCRTD.lib(std_type_info_static.obj)" geladen
+        __chkstk gefunden.
+          In "ImageProcessor.obj" referenziert
+          In "RangeHighlight.obj" referenziert
+          "MSVCRTD.lib(chkstk.obj)" geladen
+        "void __cdecl `eh vector destructor iterator'(void *,unsigned __int64,unsigned __int64,void (__cdecl*)(void *))" (??_M@YAXPEAX_K1P6AX0@Z@Z) gefunden.
+          In "main.obj" referenziert
+          "MSVCRTD.lib(ehvecdtr.obj)" geladen
+        "void __cdecl operator delete[](void *,unsigned __int64)" (??_V@YAXPEAX_K@Z) gefunden.
+          In "main.obj" referenziert
+          "MSVCRTD.lib(delete_array_size.obj)" geladen
+        atexit gefunden.
+          In "main.obj" referenziert
+          In "msvcprtd.lib(locale0_implib.obj)" referenziert
+          "MSVCRTD.lib(utility.obj)" geladen
+        mainCRTStartup gefunden.
+          "MSVCRTD.lib(exe_main.obj)" geladen
+        __guard_dispatch_icall_fptr gefunden.
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          In "msvcprtd.lib(locale0_implib.obj)" referenziert
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          In "MSVCRTD.lib(ehvecdtr.obj)" referenziert
+          In "MSVCRTD.lib(utility.obj)" referenziert
+          "MSVCRTD.lib(guard_support.obj)" geladen
+        "void __cdecl _RTC_StackFailure(void *,char const *)" (?_RTC_StackFailure@@YAXPEAXPEBD@Z) gefunden.
+          In "MSVCRTD.lib(stack.obj)" referenziert
+          "MSVCRTD.lib(error.obj)" geladen
+        _RTC_SetErrorFuncW gefunden.
+          In "MSVCRTD.lib(init.obj)" referenziert
+          "MSVCRTD.lib(userapi.obj)" geladen
+        __report_gsfailure gefunden.
+          In "MSVCRTD.lib(amdsecgs.obj)" referenziert
+          "MSVCRTD.lib(gs_report.obj)" geladen
+        "void __cdecl __scrt_throw_std_bad_alloc(void)" (?__scrt_throw_std_bad_alloc@@YAXXZ) gefunden.
+          In "MSVCRTD.lib(new_scalar.obj)" referenziert
+          "MSVCRTD.lib(throw_bad_alloc.obj)" geladen
+        "void __cdecl operator delete(void *)" (??3@YAXPEAX@Z) gefunden.
+          In "MSVCRTD.lib(delete_scalar_size.obj)" referenziert
+          "MSVCRTD.lib(delete_scalar.obj)" geladen
+        "void __cdecl operator delete[](void *)" (??_V@YAXPEAX@Z) gefunden.
+          In "MSVCRTD.lib(delete_array_size.obj)" referenziert
+          "MSVCRTD.lib(delete_array.obj)" geladen
+        __isa_available_init gefunden.
+          In "MSVCRTD.lib(utility.obj)" referenziert
+          "MSVCRTD.lib(cpu_disp.obj)" geladen
+        _get_startup_argv_mode gefunden.
+          In "MSVCRTD.lib(utility.obj)" referenziert
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "MSVCRTD.lib(argv_mode.obj)" geladen
+        __scrt_is_ucrt_dll_in_use gefunden.
+          In "MSVCRTD.lib(utility.obj)" referenziert
+          "MSVCRTD.lib(ucrt_detection.obj)" geladen
+        __scrt_fastfail gefunden.
+          In "MSVCRTD.lib(utility.obj)" referenziert
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "MSVCRTD.lib(utility_desktop.obj)" geladen
+        __security_init_cookie gefunden.
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "MSVCRTD.lib(gs_support.obj)" geladen
+        _matherr gefunden.
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "MSVCRTD.lib(matherr.obj)" geladen
+        _get_startup_commit_mode gefunden.
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "MSVCRTD.lib(commit_mode.obj)" geladen
+        _get_startup_file_mode gefunden.
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "MSVCRTD.lib(file_mode.obj)" geladen
+        _get_startup_new_mode gefunden.
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "MSVCRTD.lib(new_mode.obj)" geladen
+        _get_startup_thread_locale_mode gefunden.
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "MSVCRTD.lib(thread_locale.obj)" geladen
+        "void __cdecl __scrt_initialize_type_info(void)" (?__scrt_initialize_type_info@@YAXXZ) gefunden.
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "MSVCRTD.lib(tncleanup.obj)" geladen
+        _should_initialize_environment gefunden.
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "MSVCRTD.lib(env_mode.obj)" geladen
+        _initialize_invalid_parameter_handler gefunden.
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "MSVCRTD.lib(invalid_parameter_handler.obj)" geladen
+        _initialize_denormal_control gefunden.
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "MSVCRTD.lib(denormal_control.obj)" geladen
+        __scrt_initialize_default_local_stdio_options gefunden.
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "MSVCRTD.lib(default_local_stdio_options.obj)" geladen
+        __scrt_is_user_matherr_present gefunden.
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "MSVCRTD.lib(matherr_detection.obj)" geladen
+        __scrt_get_dyn_tls_init_callback gefunden.
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "MSVCRTD.lib(dyn_tls_init.obj)" geladen
+        __scrt_get_dyn_tls_dtor_callback gefunden.
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "MSVCRTD.lib(dyn_tls_dtor.obj)" geladen
+        _RTC_Initialize gefunden.
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "MSVCRTD.lib(initsect.obj)" geladen
+        __xi_a gefunden.
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "MSVCRTD.lib(initializers.obj)" geladen
+  /DEFAULTLIB:kernel32.lib wurde verarbeitet.
+   /DISALLOWLIB:msvcrt.lib wurde verarbeitet.
+   /DISALLOWLIB:libcmt.lib wurde verarbeitet.
+   /DISALLOWLIB:libcmtd.lib wurde verarbeitet.
+   /DISALLOWLIB:vcruntime.lib wurde verarbeitet.
+  /DEFAULTLIB:vcruntimed.lib wurde verarbeitet.
+   /DISALLOWLIB:libvcruntime.lib wurde verarbeitet.
+   /DISALLOWLIB:libvcruntimed.lib wurde verarbeitet.
+   /DISALLOWLIB:ucrt.lib wurde verarbeitet.
+  /DEFAULTLIB:ucrtd.lib wurde verarbeitet.
+   /DISALLOWLIB:libucrt.lib wurde verarbeitet.
+   /DISALLOWLIB:libucrtd.lib wurde verarbeitet.
+        _guard_dispatch_icall_nop gefunden.
+          In "MSVCRTD.lib(guard_support.obj)" referenziert
+          "MSVCRTD.lib(guard_dispatch.obj)" geladen
+        "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPEAEPEA_WKPEAH1K@Z) gefunden.
+          In "MSVCRTD.lib(error.obj)" referenziert
+          "MSVCRTD.lib(pdblkup.obj)" geladen
+      Durchsuchen von C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\lib\x64\OLDNAMES.lib:
+      Durchsuchen von C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\lib\x64\vcompd.lib:
+      Durchsuchen von C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\lib\x64\vcruntimed.lib:
+        __CxxFrameHandler3 gefunden.
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          In "MSVCRTD.lib(gshandlereh.obj)" referenziert
+          In "TempReader.obj" referenziert
+          In "EdgeDetector.obj" referenziert
+          In "main.obj" referenziert
+          In "msvcprtd.lib(locale0_implib.obj)" referenziert
+          In "NoiseReduction.obj" referenziert
+          In "RangeHighlight.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "TempExtrema.obj" referenziert
+          In "AmbientTemp.obj" referenziert
+          In "ContrastManipulation.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          "vcruntimed.lib(VCRUNTIME140D.dll)" geladen
+        _purecall gefunden.
+          In "ImageConverter.obj" referenziert
+          "vcruntimed.lib(VCRUNTIME140D.dll)" geladen
+        memcpy gefunden.
+          In "TempReader.obj" referenziert
+          In "main.obj" referenziert
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "TempExtrema.obj" referenziert
+          "vcruntimed.lib(VCRUNTIME140D.dll)" geladen
+        memmove gefunden.
+          In "TempExtrema.obj" referenziert
+          In "TempReader.obj" referenziert
+          In "main.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "NoiseReduction.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          "vcruntimed.lib(VCRUNTIME140D.dll)" geladen
+        memset gefunden.
+          In "ImageConverter.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "main.obj" referenziert
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          "vcruntimed.lib(VCRUNTIME140D.dll)" geladen
+        __std_exception_copy gefunden.
+          In "ImageConverter.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "MSVCRTD.lib(throw_bad_alloc.obj)" referenziert
+          "vcruntimed.lib(VCRUNTIME140D.dll)" geladen
+        __std_exception_destroy gefunden.
+          In "ImageConverter.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "MSVCRTD.lib(throw_bad_alloc.obj)" referenziert
+          "vcruntimed.lib(VCRUNTIME140D.dll)" geladen
+        _CxxThrowException gefunden.
+          In "MSVCRTD.lib(throw_bad_alloc.obj)" referenziert
+          In "ImageConverter.obj" referenziert
+          In "NoiseReduction.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "main.obj" referenziert
+          "vcruntimed.lib(VCRUNTIME140D.dll)" geladen
+        __RTDynamicCast gefunden.
+          In "ImageConverter.obj" referenziert
+          "vcruntimed.lib(VCRUNTIME140D.dll)" geladen
+        memcmp gefunden.
+          In "ImageConverter.obj" referenziert
+          "vcruntimed.lib(VCRUNTIME140D.dll)" geladen
+        __C_specific_handler gefunden.
+          In "MSVCRTD.lib(ehvecdtr.obj)" referenziert
+          In "MSVCRTD.lib(utility.obj)" referenziert
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "vcruntimed.lib(VCRUNTIME140D.dll)" geladen
+        __C_specific_handler_noexcept gefunden.
+          In "MSVCRTD.lib(error.obj)" referenziert
+          "vcruntimed.lib(VCRUNTIME140D.dll)" geladen
+        __std_type_info_destroy_list gefunden.
+          In "MSVCRTD.lib(tncleanup.obj)" referenziert
+          "vcruntimed.lib(VCRUNTIME140D.dll)" geladen
+        __vcrt_GetModuleFileNameW gefunden.
+          In "MSVCRTD.lib(pdblkup.obj)" referenziert
+          "vcruntimed.lib(VCRUNTIME140D.dll)" geladen
+        __vcrt_GetModuleHandleW gefunden.
+          In "MSVCRTD.lib(pdblkup.obj)" referenziert
+          "vcruntimed.lib(VCRUNTIME140D.dll)" geladen
+        __vcrt_LoadLibraryExW gefunden.
+          In "MSVCRTD.lib(pdblkup.obj)" referenziert
+          "vcruntimed.lib(VCRUNTIME140D.dll)" geladen
+        __IMPORT_DESCRIPTOR_VCRUNTIME140D gefunden.
+          In "vcruntimed.lib(VCRUNTIME140D.dll)" referenziert
+          In "vcruntimed.lib(VCRUNTIME140D.dll)" referenziert
+          In "vcruntimed.lib(VCRUNTIME140D.dll)" referenziert
+          In "vcruntimed.lib(VCRUNTIME140D.dll)" referenziert
+          In "vcruntimed.lib(VCRUNTIME140D.dll)" referenziert
+          In "vcruntimed.lib(VCRUNTIME140D.dll)" referenziert
+          In "vcruntimed.lib(VCRUNTIME140D.dll)" referenziert
+          In "vcruntimed.lib(VCRUNTIME140D.dll)" referenziert
+          In "vcruntimed.lib(VCRUNTIME140D.dll)" referenziert
+          In "vcruntimed.lib(VCRUNTIME140D.dll)" referenziert
+          In "vcruntimed.lib(VCRUNTIME140D.dll)" referenziert
+          In "vcruntimed.lib(VCRUNTIME140D.dll)" referenziert
+          In "vcruntimed.lib(VCRUNTIME140D.dll)" referenziert
+          In "vcruntimed.lib(VCRUNTIME140D.dll)" referenziert
+          In "vcruntimed.lib(VCRUNTIME140D.dll)" referenziert
+          In "vcruntimed.lib(VCRUNTIME140D.dll)" referenziert
+          "vcruntimed.lib(VCRUNTIME140D.dll)" geladen
+        VCRUNTIME140D_NULL_THUNK_DATA gefunden.
+          In "vcruntimed.lib(VCRUNTIME140D.dll)" referenziert
+          "vcruntimed.lib(VCRUNTIME140D.dll)" geladen
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\ucrt\x64\ucrtd.lib:
+        __imp__invalid_parameter gefunden.
+          In "TempExtrema.obj" referenziert
+          In "TempReader.obj" referenziert
+          In "main.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "NoiseReduction.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        __imp__errno gefunden.
+          In "ImageConverter.obj" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        __imp__calloc_dbg gefunden.
+          In "main.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "TempReader.obj" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        __imp__CrtDbgReport gefunden.
+          In "TempExtrema.obj" referenziert
+          In "TempReader.obj" referenziert
+          In "main.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "NoiseReduction.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        __imp_strtod gefunden.
+          In "ImageConverter.obj" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        __imp_wcslen gefunden.
+          In "main.obj" referenziert
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "TempReader.obj" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        __imp_terminate gefunden.
+          In "ImageConverter.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        __imp__get_stream_buffer_pointers gefunden.
+          In "ImageConverter.obj" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        __imp_fclose gefunden.
+          In "ImageConverter.obj" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        __imp_fflush gefunden.
+          In "ImageConverter.obj" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        __imp_fgetc gefunden.
+          In "ImageConverter.obj" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        __imp_fgetpos gefunden.
+          In "ImageConverter.obj" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        __imp_fputc gefunden.
+          In "ImageConverter.obj" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        __imp_fread gefunden.
+          In "ImageConverter.obj" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        __imp_fsetpos gefunden.
+          In "ImageConverter.obj" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        __imp__fseeki64 gefunden.
+          In "ImageConverter.obj" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        __imp_fwrite gefunden.
+          In "ImageConverter.obj" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        __imp_setvbuf gefunden.
+          In "ImageConverter.obj" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        __imp_ungetc gefunden.
+          In "ImageConverter.obj" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        __imp__lock_file gefunden.
+          In "ImageConverter.obj" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        __imp__unlock_file gefunden.
+          In "ImageConverter.obj" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        strlen gefunden.
+          In "main.obj" referenziert
+          In "ImageConverter.obj" referenziert
+          In "ImageProcessor.obj" referenziert
+          In "SequenceReader.obj" referenziert
+          In "TempReader.obj" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        abs gefunden.
+          In "ImageProcessor.obj" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        pow gefunden.
+          In "TempReader.obj" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        __imp__difftime64 gefunden.
+          In "main.obj" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        __imp__time64 gefunden.
+          In "main.obj" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        __imp__free_dbg gefunden.
+          In "msvcprtd.lib(locale0_implib.obj)" referenziert
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        __imp__malloc_dbg gefunden.
+          In "msvcprtd.lib(locale0_implib.obj)" referenziert
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        __imp____lc_codepage_func gefunden.
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        _CrtDbgReportW gefunden.
+          In "MSVCRTD.lib(init.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        _callnewh gefunden.
+          In "MSVCRTD.lib(new_scalar.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        malloc gefunden.
+          In "MSVCRTD.lib(new_scalar.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        _seh_filter_dll gefunden.
+          In "MSVCRTD.lib(utility.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        _configure_narrow_argv gefunden.
+          In "MSVCRTD.lib(utility.obj)" referenziert
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        _initialize_narrow_environment gefunden.
+          In "MSVCRTD.lib(utility.obj)" referenziert
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        _initialize_onexit_table gefunden.
+          In "MSVCRTD.lib(utility.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        _register_onexit_function gefunden.
+          In "MSVCRTD.lib(utility.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        _execute_onexit_table gefunden.
+          In "MSVCRTD.lib(utility.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        _crt_atexit gefunden.
+          In "MSVCRTD.lib(utility.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        _crt_at_quick_exit gefunden.
+          In "MSVCRTD.lib(utility.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        _cexit gefunden.
+          In "MSVCRTD.lib(utility.obj)" referenziert
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        _seh_filter_exe gefunden.
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        _set_app_type gefunden.
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        __setusermatherr gefunden.
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        _get_initial_narrow_environment gefunden.
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        _initterm gefunden.
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        _initterm_e gefunden.
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        exit gefunden.
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        _exit gefunden.
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        _set_fmode gefunden.
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        __p___argc gefunden.
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        __p___argv gefunden.
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        _c_exit gefunden.
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        _register_thread_local_exe_atexit_callback gefunden.
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        _configthreadlocale gefunden.
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        _set_new_mode gefunden.
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        __p__commode gefunden.
+          In "MSVCRTD.lib(exe_main.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        strcpy_s gefunden.
+          In "MSVCRTD.lib(error.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        strcat_s gefunden.
+          In "MSVCRTD.lib(error.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        __stdio_common_vsprintf_s gefunden.
+          In "MSVCRTD.lib(error.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        _wmakepath_s gefunden.
+          In "MSVCRTD.lib(pdblkup.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        _wsplitpath_s gefunden.
+          In "MSVCRTD.lib(pdblkup.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        wcscpy_s gefunden.
+          In "MSVCRTD.lib(pdblkup.obj)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        __IMPORT_DESCRIPTOR_ucrtbased gefunden.
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+        ucrtbased_NULL_THUNK_DATA gefunden.
+          In "ucrtd.lib(ucrtbased.dll)" referenziert
+          "ucrtd.lib(ucrtbased.dll)" geladen
+      Durchsuchen von C:\intel\tbb2019_20190605oss\lib\intel64\vc14\tbb.lib:
+      Durchsuchen von C:\intel\tbb2019_20190605oss\lib\intel64\vc14\tbb_debug.lib:
+      Durchsuchen von C:\opencv\build\x64\vc15\lib\opencv_world410d.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\kernel32.lib:
+        __imp_SetCurrentDirectoryW gefunden.
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_GetCurrentDirectoryW gefunden.
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_CreateDirectoryW gefunden.
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_CreateFileW gefunden.
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_DeleteFileW gefunden.
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_FindClose gefunden.
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_FindFirstFileExW gefunden.
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_FindNextFileW gefunden.
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_GetDiskFreeSpaceExW gefunden.
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_GetFileAttributesW gefunden.
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_GetFileAttributesExW gefunden.
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_GetFileInformationByHandle gefunden.
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_GetFullPathNameW gefunden.
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_RemoveDirectoryW gefunden.
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_SetFileAttributesW gefunden.
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_SetFileTime gefunden.
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_GetTempPathW gefunden.
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_AreFileApisANSI gefunden.
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_CloseHandle gefunden.
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_GetLastError gefunden.
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          In "MSVCRTD.lib(pdblkup.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_SetLastError gefunden.
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_DeviceIoControl gefunden.
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_GetModuleHandleW gefunden.
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          In "MSVCRTD.lib(utility_desktop.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_GetProcAddress gefunden.
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          In "MSVCRTD.lib(pdblkup.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_CreateDirectoryExW gefunden.
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_CopyFileW gefunden.
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_MoveFileExW gefunden.
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_CreateHardLinkW gefunden.
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_MultiByteToWideChar gefunden.
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          In "MSVCRTD.lib(error.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_WideCharToMultiByte gefunden.
+          In "msvcprtd.lib(filesystem.obj)" referenziert
+          In "MSVCRTD.lib(error.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_GetCurrentThreadId gefunden.
+          In "MSVCRTD.lib(debugger_jmc.obj)" referenziert
+          In "MSVCRTD.lib(gs_support.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_IsDebuggerPresent gefunden.
+          In "MSVCRTD.lib(error.obj)" referenziert
+          In "MSVCRTD.lib(utility_desktop.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_RaiseException gefunden.
+          In "MSVCRTD.lib(error.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_RtlCaptureContext gefunden.
+          In "MSVCRTD.lib(gs_report.obj)" referenziert
+          In "MSVCRTD.lib(utility_desktop.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_RtlLookupFunctionEntry gefunden.
+          In "MSVCRTD.lib(gs_report.obj)" referenziert
+          In "MSVCRTD.lib(utility_desktop.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_RtlVirtualUnwind gefunden.
+          In "MSVCRTD.lib(gs_report.obj)" referenziert
+          In "MSVCRTD.lib(utility_desktop.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_UnhandledExceptionFilter gefunden.
+          In "MSVCRTD.lib(gs_report.obj)" referenziert
+          In "MSVCRTD.lib(utility_desktop.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_SetUnhandledExceptionFilter gefunden.
+          In "MSVCRTD.lib(gs_report.obj)" referenziert
+          In "MSVCRTD.lib(utility_desktop.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_GetCurrentProcess gefunden.
+          In "MSVCRTD.lib(gs_report.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_TerminateProcess gefunden.
+          In "MSVCRTD.lib(gs_report.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        IsProcessorFeaturePresent gefunden.
+          In "MSVCRTD.lib(gs_report.obj)" referenziert
+          In "MSVCRTD.lib(utility_desktop.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_GetStartupInfoW gefunden.
+          In "MSVCRTD.lib(utility_desktop.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_QueryPerformanceCounter gefunden.
+          In "MSVCRTD.lib(gs_support.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_GetCurrentProcessId gefunden.
+          In "MSVCRTD.lib(gs_support.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_GetSystemTimeAsFileTime gefunden.
+          In "MSVCRTD.lib(gs_support.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_InitializeSListHead gefunden.
+          In "MSVCRTD.lib(tncleanup.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_HeapAlloc gefunden.
+          In "MSVCRTD.lib(pdblkup.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_HeapFree gefunden.
+          In "MSVCRTD.lib(pdblkup.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_GetProcessHeap gefunden.
+          In "MSVCRTD.lib(pdblkup.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_VirtualQuery gefunden.
+          In "MSVCRTD.lib(pdblkup.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp_FreeLibrary gefunden.
+          In "MSVCRTD.lib(pdblkup.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __IMPORT_DESCRIPTOR_KERNEL32 gefunden.
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        KERNEL32_NULL_THUNK_DATA gefunden.
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\user32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\gdi32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\winspool.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\comdlg32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\advapi32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\shell32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\ole32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\oleaut32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\uuid.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\odbc32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\odbccp32.lib:
+      Durchsuchen von C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\lib\x64\msvcprtd.lib:
+      Durchsuchen von C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\lib\x64\MSVCRTD.lib:
+      Durchsuchen von C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\lib\x64\OLDNAMES.lib:
+      Durchsuchen von C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\lib\x64\vcompd.lib:
+      Durchsuchen von C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\lib\x64\vcruntimed.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\ucrt\x64\ucrtd.lib:
+      Durchsuchen von C:\intel\tbb2019_20190605oss\lib\intel64\vc14\tbb.lib:
+      Durchsuchen von C:\intel\tbb2019_20190605oss\lib\intel64\vc14\tbb_debug.lib:
+      Durchsuchen von C:\opencv\build\x64\vc15\lib\opencv_world410d.lib:
+  
+  Durchsuchen der Bibliotheken abgeschlossen.
+  
+  Bibliotheken werden durchsucht.
+      Durchsuchen von C:\intel\tbb2019_20190605oss\lib\intel64\vc14\tbb.lib:
+      Durchsuchen von C:\intel\tbb2019_20190605oss\lib\intel64\vc14\tbb_debug.lib:
+      Durchsuchen von C:\opencv\build\x64\vc15\lib\opencv_world410d.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\kernel32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\user32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\gdi32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\winspool.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\comdlg32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\advapi32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\shell32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\ole32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\oleaut32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\uuid.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\odbc32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\odbccp32.lib:
+      Durchsuchen von C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\lib\x64\msvcprtd.lib:
+      Durchsuchen von C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\lib\x64\MSVCRTD.lib:
+        __scrt_stub_for_acrt_initialize gefunden.
+          "MSVCRTD.lib(ucrt_stubs.obj)" geladen
+      Durchsuchen von C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\lib\x64\OLDNAMES.lib:
+      Durchsuchen von C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\lib\x64\vcompd.lib:
+      Durchsuchen von C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\lib\x64\vcruntimed.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\ucrt\x64\ucrtd.lib:
+  
+  Durchsuchen der Bibliotheken abgeschlossen.
+  
+  Durchlauf 1 abgeschlossen
+  
+  
+  Bibliotheken werden durchsucht.
+      Durchsuchen von C:\intel\tbb2019_20190605oss\lib\intel64\vc14\tbb.lib:
+      Durchsuchen von C:\intel\tbb2019_20190605oss\lib\intel64\vc14\tbb_debug.lib:
+      Durchsuchen von C:\opencv\build\x64\vc15\lib\opencv_world410d.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\kernel32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\user32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\gdi32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\winspool.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\comdlg32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\advapi32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\shell32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\ole32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\oleaut32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\uuid.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\odbc32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\odbccp32.lib:
+      Durchsuchen von C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\lib\x64\msvcprtd.lib:
+      Durchsuchen von C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\lib\x64\MSVCRTD.lib:
+        _load_config_used gefunden.
+          "MSVCRTD.lib(loadcfg.obj)" geladen
+  
+  Durchsuchen der Bibliotheken abgeschlossen.
+  
+  Aufruf von "rc.exe":
+   /v
+   /x
+   /fo
+   "C:\Users\Adolar\AppData\Local\Temp\lnk{D9E718DE-C671-4902-AEC5-83604F477B60}.tmp"
+   "C:\Users\Adolar\AppData\Local\Temp\lnk{8FCB725C-F706-46E0-B242-4B6F21D1BD52}.tmp"
+  Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+  
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  
+  Creating C:\Users\Adolar\AppData\Local\Temp\lnk{D9E718DE-C671-4902-AEC5-83604F477B60}.tmp
+  
+  Using codepage 1252 as default
+  
+  C:\Users\Adolar\AppData\Local\Temp\lnk{8FCB725C-F706-46E0-B242-4B6F21D1BD52}.tmp.
+  Writing 24:1,	lang:0x409,	size 381
+  
+  Aufruf von "cvtres.exe":
+   /machine:amd64
+   /verbose
+   /out:"C:\Users\Adolar\AppData\Local\Temp\lnk{D27992F3-55FC-4F23-A7EC-8AA2FF09BD18}.tmp"
+   /readonly
+   "C:\Users\Adolar\AppData\Local\Temp\lnk{D9E718DE-C671-4902-AEC5-83604F477B60}.tmp"
+  Microsoft (R) Windows Resource To Object Converter, Version 14.16.27030.1
+  Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+  
+  Die Ressource wird hinzugef³gt. type:MANIFEST, name:1, language:0x0409, flags:0x30, size:381.
+  
+  
+  Nicht verwendete Bibliotheken:
+    C:\intel\tbb2019_20190605oss\lib\intel64\vc14\tbb_debug.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\user32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\gdi32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\winspool.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\comdlg32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\advapi32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\shell32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\ole32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\oleaut32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\uuid.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\odbc32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\odbccp32.lib
+    C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\lib\x64\OLDNAMES.lib
+    C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\lib\x64\vcompd.lib
+  
+  Durchlauf 2 gestartet.
+       * linker generated manifest res *
+       main.obj
+       EdgeDetector.obj
+       TempReader.obj
+       TempExtrema.obj
+       SequenceReader.obj
+       RangeHighlight.obj
+       NoiseReduction.obj
+       ImageProcessor.obj
+       ImageConverter.obj
+       DigitalTempConverter.obj
+       ContrastManipulation.obj
+       AmbientTemp.obj
+       tbb.lib(tbb.dll)
+       tbb.lib(tbb.dll)
+       tbb.lib(tbb.dll)
+       tbb.lib(tbb.dll)
+       tbb.lib(tbb.dll)
+       tbb.lib(tbb.dll)
+       tbb.lib(tbb.dll)
+       tbb.lib(tbb.dll)
+       tbb.lib(tbb.dll)
+       tbb.lib(tbb.dll)
+       tbb.lib(tbb.dll)
+       tbb.lib(tbb.dll)
+       tbb.lib(tbb.dll)
+       tbb.lib(tbb.dll)
+       tbb.lib(tbb.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       opencv_world410d.lib(opencv_world410d.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(locale0_implib.obj)
+       msvcprtd.lib(filesystem.obj)
+       MSVCRTD.lib(amdsecgs.obj)
+       MSVCRTD.lib(chkstk.obj)
+       MSVCRTD.lib(guard_dispatch.obj)
+       MSVCRTD.lib(gs_cookie.obj)
+       MSVCRTD.lib(gs_report.obj)
+       MSVCRTD.lib(gs_support.obj)
+       MSVCRTD.lib(guard_support.obj)
+       MSVCRTD.lib(loadcfg.obj)
+       MSVCRTD.lib(debugger_jmc.obj)
+       MSVCRTD.lib(dyn_tls_dtor.obj)
+       MSVCRTD.lib(dyn_tls_init.obj)
+       MSVCRTD.lib(matherr_detection.obj)
+       MSVCRTD.lib(ucrt_detection.obj)
+       MSVCRTD.lib(cpu_disp.obj)
+       MSVCRTD.lib(argv_mode.obj)
+       MSVCRTD.lib(commit_mode.obj)
+       MSVCRTD.lib(default_local_stdio_options.obj)
+       MSVCRTD.lib(denormal_control.obj)
+       MSVCRTD.lib(env_mode.obj)
+       MSVCRTD.lib(file_mode.obj)
+       MSVCRTD.lib(fltused.obj)
+       MSVCRTD.lib(invalid_parameter_handler.obj)
+       MSVCRTD.lib(matherr.obj)
+       MSVCRTD.lib(new_mode.obj)
+       MSVCRTD.lib(thread_locale.obj)
+       MSVCRTD.lib(ehvecdtr.obj)
+       MSVCRTD.lib(std_type_info_static.obj)
+       MSVCRTD.lib(tncleanup.obj)
+       MSVCRTD.lib(delete_array.obj)
+       MSVCRTD.lib(delete_array_size.obj)
+       MSVCRTD.lib(delete_scalar.obj)
+       MSVCRTD.lib(delete_scalar_size.obj)
+       MSVCRTD.lib(new_scalar.obj)
+       MSVCRTD.lib(throw_bad_alloc.obj)
+       MSVCRTD.lib(exe_main.obj)
+       MSVCRTD.lib(initializers.obj)
+       MSVCRTD.lib(utility.obj)
+       MSVCRTD.lib(ucrt_stubs.obj)
+       MSVCRTD.lib(utility_desktop.obj)
+       MSVCRTD.lib(error.obj)
+       MSVCRTD.lib(init.obj)
+       MSVCRTD.lib(initsect.obj)
+       MSVCRTD.lib(pdblkup.obj)
+       MSVCRTD.lib(stack.obj)
+       MSVCRTD.lib(userapi.obj)
+       MSVCRTD.lib(gshandlereh.obj)
+       MSVCRTD.lib(gshandler.obj)
+       vcruntimed.lib(VCRUNTIME140D.dll)
+       vcruntimed.lib(VCRUNTIME140D.dll)
+       vcruntimed.lib(VCRUNTIME140D.dll)
+       vcruntimed.lib(VCRUNTIME140D.dll)
+       vcruntimed.lib(VCRUNTIME140D.dll)
+       vcruntimed.lib(VCRUNTIME140D.dll)
+       vcruntimed.lib(VCRUNTIME140D.dll)
+       vcruntimed.lib(VCRUNTIME140D.dll)
+       vcruntimed.lib(VCRUNTIME140D.dll)
+       vcruntimed.lib(VCRUNTIME140D.dll)
+       vcruntimed.lib(VCRUNTIME140D.dll)
+       vcruntimed.lib(VCRUNTIME140D.dll)
+       vcruntimed.lib(VCRUNTIME140D.dll)
+       vcruntimed.lib(VCRUNTIME140D.dll)
+       vcruntimed.lib(VCRUNTIME140D.dll)
+       vcruntimed.lib(VCRUNTIME140D.dll)
+       vcruntimed.lib(VCRUNTIME140D.dll)
+       vcruntimed.lib(VCRUNTIME140D.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+  Durchlauf 2 abgeschlossen.
+  Failed to connect to VCTIP: 'CreateFile' failed with 2
+  Launching VCTIP
+  thermalAR.vcxproj -> D:\Projekte\Masterarbeit\_cd\Prototyp\x64\Debug\thermalAR.exe
